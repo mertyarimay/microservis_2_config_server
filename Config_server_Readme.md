@@ -1,4 +1,9 @@
 # Config Server
+[GitHub](https://github.com/mertyarimay/microservis_2_config_server)
+
+
+
+# Config Server
 - Mikroservislerin konfigurasyonlarını  merkezi bir yerde yönetmek için  kullanılan yapidir.
 - Bu config-server:Merkezi bir alan içinde  config server üzerinden  yapılandırmaları dinamik olarak alabilir.
 
