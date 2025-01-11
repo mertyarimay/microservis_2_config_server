@@ -1,0 +1,21 @@
+#http://localhost:8888/aplication/default
+#http://localhost:8888/aplication/dev
+#http://localhost:8888/aplication/prod
+
+#Prod profili için genel ayarlar
+
+
+server:
+  port: 8084
+
+  spring:
+    datasource:
+      url: jdbc:postgresql://localhost:5432/eCommerce
+      username: produser
+      password: prodpassword
+
+  logging:
+    level:
+      root: WARN
+
+#ÜRETİM ORTAMINA ÖZGÜ DİĞER AYARLAR ÖRNEĞİN GÜVENLİK YAPILANDIRMALARI

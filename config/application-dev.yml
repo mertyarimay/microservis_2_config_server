@@ -1,0 +1,22 @@
+#http://localhost:8888/aplication/default
+#http://localhost:8888/aplication/dev
+#http://localhost:8888/aplication/prod
+
+#Dev profili için genel ayarlar
+
+
+server:
+  port: 8083
+
+  spring:
+    datasource:
+      url: jdbc:postgresql://localhost:5432/eCommerce
+      username: devuser
+      password: devpassword
+
+  logging:
+    level:
+     root: DEBUG
+
+#Geliştirme ortamına özgü diğer ayarlar örneğin daha detaylı hata ayıklama  bilgileri veya  test veritabanı bağlantıları
+
