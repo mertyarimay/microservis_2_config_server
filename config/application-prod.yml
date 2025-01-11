@@ -5,17 +5,17 @@
 #Prod profili için genel ayarlar
 
 
-server:
-  port: 8084
+#server:
+ # port: 8084
 
-  spring:
-    datasource:
-      url: jdbc:postgresql://localhost:5432/eCommerce
-      username: produser
-      password: prodpassword
+  #spring:
+   # datasource:
+    #  url: jdbc:postgresql://localhost:5432/eCommerce
+     # username: produser
+      #password: prodpassword
 
-  logging:
-    level:
-      root: WARN
+  #logging:
+   # level:
+    #  root: WARN
 
 #ÜRETİM ORTAMINA ÖZGÜ DİĞER AYARLAR ÖRNEĞİN GÜVENLİK YAPILANDIRMALARI
