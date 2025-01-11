@@ -1,6 +1,8 @@
 # Config Server
 [GitHub](https://github.com/mertyarimay/microservis_2_config_server)
 
+config server URL:http://localhost:8888/application/default
+
 
 
 # Config Server
