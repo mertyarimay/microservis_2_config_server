@@ -11,8 +11,8 @@ server:
   spring:
     datasource:
       url: jdbc:postgresql://localhost:5432/eCommerce
-      username: devuser
-      password: devpassword
+      username: postgres
+      password: 12345
 
   logging:
     level:

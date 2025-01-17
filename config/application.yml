@@ -3,21 +3,21 @@
 #http://localhost:8888/aplication/prod
 
 #Tüm profiller için genel ayarlar
-server:
-  port: 8888
+#server:
+  #port: 8888
 
-  spring:
-    datasource:
-      url: jdbc:postgresql://localhost:5432/eCommerce
-      username: postgres
-      password: 12345
-      jpa:
-        hibernate:
-          ddl-auto: update
-          show-sql: true
+  #spring:
+    #datasource:
+      #url: jdbc:postgresql://localhost:5432/eCommerce
+      #username: postgres
+      #password: 12345
+      #jpa:
+        #hibernate:
+          #ddl-auto: update
+          #show-sql: true
 
-          logging:
-            level:
-              root: INFO
+          #logging:
+            #level:
+              #root: INFO
 
    # Genel ayarlar burda bulunur örneğin ortak kullanılan  servisler ve apı ayarları
