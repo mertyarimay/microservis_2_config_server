@@ -4,6 +4,10 @@
 
 #Dev profili için genel ayarlar
 
+
+server:
+  port: 8083
+
   spring:
     datasource:
       url: jdbc:postgresql://localhost:5432/eCommerce

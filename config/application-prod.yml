@@ -5,6 +5,8 @@
 #Prod profili için genel ayarlar
 
 
+server:
+  port: 8084
 
   spring:
     datasource:
