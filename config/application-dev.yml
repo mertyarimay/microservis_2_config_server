@@ -10,7 +10,7 @@ server:
 
   spring:
     datasource:
-      url: jdbc:postgresql://localhost:5432/eCommerce
+      url: jdbc:postgresql://localhost:5432/eCommerce_dev
       username: postgres
       password: 12345
 
