@@ -3,8 +3,7 @@
 #http://localhost:8888/aplication/prod
 
 #Tüm profiller için genel ayarlar
-server:
-  port: 8085
+
 
 spring:
   datasource:

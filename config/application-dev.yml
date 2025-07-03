@@ -5,8 +5,7 @@
 #Dev profili için genel ayarlar
 
 
-server:
-  port: 8083
+
 
   spring:
     datasource:
