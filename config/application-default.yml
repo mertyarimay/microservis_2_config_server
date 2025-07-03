@@ -1,0 +1,28 @@
+#http://localhost:8888/aplication/default
+#http://localhost:8888/aplication/dev
+#http://localhost:8888/aplication/prod
+
+#Tüm profiller için genel ayarlar
+server:
+  port: 8888
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/eCommerce
+    username: postgres
+    password: 12345
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+logging:
+  level:
+    root: INFO
+
+
